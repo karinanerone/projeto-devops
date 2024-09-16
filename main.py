@@ -1,8 +1,13 @@
 #Projeto: Calculadora Aluna: Karina Nerone
 def calculadora():
     operacao = input("Escolha a operação a realizar (+, -, *, /, **): ")
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
+
+    try:
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+    except ValueError:
+        print("Erro: por favor, insira um número válido.")
+        return
 
     if operacao == "+":
         resultado = num1 + num2
