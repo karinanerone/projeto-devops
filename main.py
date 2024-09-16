@@ -22,6 +22,9 @@ def calculadora():
     elif operacao == "**":
         resultado = num1 ** num2
         print("O resultado da exponenciação é:", resultado)
+    elif operacao == "%":
+        resultado = num1 % num2
+        print("O resultado do módulo é:", resultado)
     else:
         print("Operação inválida!")
 
