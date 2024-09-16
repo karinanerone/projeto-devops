@@ -26,7 +26,7 @@ def calculadora():
         resultado = num1 % num2
         print("O resultado do módulo é:", resultado)
     else:
-        print("Operação inválida!")
+        print(f"Operação '{operacao}' inválida! Por favor, escolha uma operação válida (+, -, *, /, **, %).")
 
 calculadora()
 
