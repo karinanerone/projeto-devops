@@ -9,6 +9,18 @@ def adicionar_tarefa():
     else:
         print("Tarefas vazias não são permitidas.")
 
+def remover_tarefa():
+    ver_tarefas()
+    try:
+        index = int(input("Digite o número da tarefa para remover: ")) - 1
+        if 0 <= index < len(tarefas):
+            tarefa_removida = tarefas.pop(index)
+            print(f"Tarefa '{tarefa_removida}' removida.")
+        else:
+            print("Número da tarefa inválido.")
+    except ValueError:
+        print("Digite um número válido.")
+
 def ver_tarefas():
     if tarefas:
         print("Suas tarefas:")
@@ -23,7 +35,8 @@ def main():
         print("-----------------")
         print("1. Adicionar tarefa")
         print("2. Ver tarefas")
-        print("3. Sair")
+        print("3. Remover tarefa")
+        print("4. Sair")
         escolha = input("Escolha uma opção: ")
 
         if escolha == "1":
@@ -31,6 +44,8 @@ def main():
         elif escolha == "2":
             ver_tarefas()
         elif escolha == "3":
+            remover_tarefa()
+        elif escolha == "4":
             break
         else:
             print("Escolha inválida. Tente novamente.")
