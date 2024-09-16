@@ -1,0 +1,8 @@
+[33m2ba67bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature_calculadora_avancada[m[33m)[m Added option to exit the calculator by typing 'sair'
+[33ma8a9425[m Added exception handling for invalid inputs
+[33m2a33bdf[m Improved error messages for invalid operations
+[33m186e55b[m Added modulo operation
+[33mb3a78dc[m Refactored division function to handle exceptions
+[33ma4d3fbc[m Added exponentiation function
+[33mcf7bb59[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Initial commit - simple calculator project
+[33m8d56bef[m Initial commit
