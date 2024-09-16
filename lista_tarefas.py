@@ -1,5 +1,6 @@
 #Projeto: lista_tarefas Aluna: Karina Nerone
 tarefas = []
+
 def adicionar_tarefa():
     tarefa = input("Digite a tarefa: ")
     if tarefa.strip():
@@ -7,6 +8,7 @@ def adicionar_tarefa():
         print("Tarefa adicionada.")
     else:
         print("Tarefas vazias não são permitidas.")
+
 def ver_tarefas():
     if tarefas:
         print("Suas tarefas:")
@@ -14,6 +16,7 @@ def ver_tarefas():
             print(f"{i}. {tarefa}")
     else:
         print("Nenhuma tarefa para exibir.")
+
 def main():
     while True:
         print("\nLista de Tarefas")
