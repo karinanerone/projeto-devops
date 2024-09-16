@@ -1,6 +1,6 @@
 #Projeto: Calculadora Aluna: Karina Nerone
 def calculadora():
-    operacao = input("Escolha a operação a realizar (+, -, *, /): ")
+    operacao = input("Escolha a operação a realizar (+, -, *, /, **): ")
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
 
@@ -16,6 +16,9 @@ def calculadora():
     elif operacao == "/":
         resultado = num1 / num2
         print("O resultado da divisão é:", resultado)
+    elif operacao == "**":
+        resultado = num1 ** num2
+        print("O resultado da exponenciação é:", resultado)
     else:
         print("Operação inválida!")
 
