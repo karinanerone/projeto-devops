@@ -14,8 +14,11 @@ def calculadora():
         resultado = num1 * num2
         print("O resultado da multiplicação é:", resultado)
     elif operacao == "/":
-        resultado = num1 / num2
-        print("O resultado da divisão é:", resultado)
+        if num2 ==  0:
+            print("ERRO: divisão por zero não é permitida!")
+        else:
+            resultado = num1 / num2
+            print("O resultado da divisão é:", resultado)
     elif operacao == "**":
         resultado = num1 ** num2
         print("O resultado da exponenciação é:", resultado)
