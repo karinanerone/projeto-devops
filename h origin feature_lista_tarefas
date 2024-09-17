@@ -1,0 +1,14 @@
+[33m546e39c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature_lista_tarefas[m[33m)[m Refatorar código para melhorar a legibilidade e a eficiência
+[33m2e510a7[m Adicionar funcionalidade para remover tarefas
+[33me8e2060[m Adicionar funcionalidades para adicionar e ver tarefas
+[33m31c862f[m Adicionar script inicial Lista de Tarefas
+[33m8a28262[m Adicionar script inicial Lista de Tarefas
+[33mdb624b7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature_todolist[m[33m)[m Merge pull request #1 from karinanerone/feature_calculadora_avancada
+[33m2ba67bf[m[33m ([m[1;31morigin/feature_calculadora_avancada[m[33m, [m[1;32mfeature_calculadora_avancada[m[33m)[m Added option to exit the calculator by typing 'sair'
+[33ma8a9425[m Added exception handling for invalid inputs
+[33m2a33bdf[m Improved error messages for invalid operations
+[33m186e55b[m Added modulo operation
+[33mb3a78dc[m Refactored division function to handle exceptions
+[33ma4d3fbc[m Added exponentiation function
+[33mcf7bb59[m Initial commit - simple calculator project
+[33m8d56bef[m Initial commit
